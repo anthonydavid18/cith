@@ -1,0 +1,29 @@
+<ion-menu [content]="NAV">
+    <ion-content>
+        <ion-list>
+            <button ion-item color="dark">
+                <ion-icon item-left name="home"></ion-icon>
+                MENU
+            </button>
+        </ion-list>
+        <ion-list>
+<button ion-item>
+    <ion-icon item-left name="book"></ion-icon>
+    Biblioteca
+</button>
+<button ion-item>
+    <ion-icon item-left name="musical-notes"></ion-icon>
+    Podcast
+</button>
+<button ion-item>
+    <ion-icon item-left name="videocam"></ion-icon>
+    Videos
+</button>
+<button ion-item>
+    <ion-icon item-left name="folder-open"></ion-icon>
+    Programas
+</button>
+        </ion-list> 
+    </ion-content>
+</ion-menu>
+<ion-nav #NAV [root]="rootPage"></ion-nav>

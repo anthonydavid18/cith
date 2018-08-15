@@ -1,0 +1,7 @@
+{
+  "name": "CITH",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
