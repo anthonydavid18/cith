@@ -1,0 +1,41 @@
+<ion-content>
+	<div class="contener">
+		<img src="../../assets/imgs/logo.png" alt="">
+	</div>
+
+	<ion-list padding>
+
+		<ion-grid>
+			<ion-row>
+				<ion-col col-12>
+					<ion-label style="margin-left: 60px;font-size: 16px" stacked>Usuario</ion-label>
+				</ion-col>
+				<ion-col col-2>
+					<ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+				</ion-col>
+				<ion-col col-10>
+					<ion-input type="text" placeholder=""></ion-input>
+				</ion-col>
+			</ion-row>
+			<ion-row>
+				<ion-col col-12>
+					<ion-label style="margin-left: 60px;font-size: 16px" stacked>Contraseña</ion-label>
+				</ion-col>
+				<ion-col col-2>
+					<ion-icon ios="ios-lock" md="md-lock"></ion-icon>
+				</ion-col>
+				<ion-col col-10>
+					<ion-input type="password" placeholder=""></ion-input>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+
+	</ion-list>
+
+	<div style="text-align: center;">
+		<button class="boton" ion-button color="primary" (click)="entrar2()">ENTRAR</button>
+		<p>¿Has olvidado los datos de la cuenta?</p>
+		<p (click)="register()">¿Aún no estás Registrado?</p>
+	</div>
+
+</ion-content>

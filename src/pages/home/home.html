@@ -1,67 +1,21 @@
-<ion-header>
-  <ion-navbar color="dark">
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title align="center">INICIO</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content align="center">
-  <ion-card>
-    <img src="assets/imgs/comunidad.jpg"/>
-    <ion-card-content >
-      <ion-card-title>
-       Comunidad Internacional del Talento Humano 
-        </ion-card-title>
-      <p>
-        Somos un grupo formado por líderes en emprendimiento que te ayudarán a cambiar y mejorar tus metas en el futuro.
-      </p>
-      <button ion-button color="danger" round outline>Ver Intro</button><button ion-button color="primary" round outline>Más Info</button>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/talento.jpg"/>
-    <ion-card-content>
-      <ion-card-title>
-        ¿Qué es el Talento Humano?
-        </ion-card-title>
-      <p>
-        El talento, según la real academia española de la lengua, refiere a la personas inteligentes o aptas
-         para determinada ocupación
-      </p>
-      <button ion-button color="danger" round outline>Ver Intro</button><button ion-button color="primary" round outline>Más Info</button>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/coach.jpg"/>
-    <ion-card-content>
-      <ion-card-title>
-        Juan Carlos Gayoso
-        </ion-card-title>
-      <p>
-        Creador, Fundador y Coach en la Comunidad Internacional Del Talento Humano.
-      </p>
-      <a href="https://goo.gl/WkgXW7" target="_blank"><button ion-button color="danger" round outline>Ir a la Web</button></a>
-      <button ion-button color="primary" round outline (click)="ir_coach()">Más Info</button>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/registrate.jpg"/>
-    <ion-card-content>
-      <ion-card-title>
-         Ir a la Plataforma 
-        </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-     <a href="https://goo.gl/q1N1rE" target="_blank"> <button ion-button color="danger" round outline>Registrarse</button></a>
-      <button ion-button color="primary" round outline>Más Info</button>
-    </ion-card-content>
-  </ion-card>
-
+<ion-content>
+	<div class="contener">
+		<img src="../../assets/imgs/logo.png" alt="logo">
+	</div>
+	
+	<ion-grid align="center" class="py-5">
+		<ion-row>
+			<ion-col col-12>
+				<button class="botonentrar" ion-button (click)="entrar()">Entrar</button>
+      </ion-col>
+      
+			<ion-col col-6>
+				<button ion-button round class="boton"><p style="color: white;" (click)="register()">REGISTRATE</p></button>
+			</ion-col>
+			<ion-col col-6>
+        <button ion-button round class="boton"><p style="color: white;" (click)="eventos()">SALTAR</p></button>
+      </ion-col>
+      
+		</ion-row>
+	</ion-grid>
 </ion-content>

@@ -1,0 +1,48 @@
+page-register {
+    ion-content{
+        background-image: url(../../assets/imgs/portada1.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        z-index: 9999;
+    }
+    .scroll-content{
+        color: #fff;
+    }
+    .text-input{
+        border-bottom: 1px solid #fff
+    }
+    .text-input::placeholder {
+        color: #fff
+    }
+	.conteiner{
+        position: absolute;
+    }
+    .contener{
+        background-image: url(../../assets/imgs/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-top: 20%
+	}
+	.label-ios, .label{
+		color:rgb(255,255,255) !important;
+		font-weight:bold !important;
+	}
+	[col-2]{
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	ion-icon{
+		color:rgb(254,254,254) !important;
+		font-size:2em !important;
+    }
+    ion-input .input{
+        color: #fff
+    }
+	.boton{
+		background: rgba(0,0,0,0.4);border-radius: 20px; width: 300px;
+	}
+}

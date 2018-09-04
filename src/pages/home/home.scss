@@ -1,5 +1,23 @@
 page-home {
-a{
-    text-decoration: none
-}
+	ion-content{
+        background-image: url(../../assets/imgs/portada3.jpg);
+        background-position: center;
+        background-size: cover;
+	}
+	
+	.boton{
+		background: transparent; -webkit-box-shadow:0; box-shadow: none;
+	}
+	.contener{
+		text-align: center !important; margin-top: 25% !important;
+	}
+	.botonentrar{
+		background: rgba(0,0,0,0.4);border-radius: 20px; width: 100%;
+    }
+    .boton{
+		background: rgba(0,0,0,1);border-radius: 20px; width: 100%;
+    }
+    .tabbar .show-tabbar{
+    opacity: 0;
+    }
 }

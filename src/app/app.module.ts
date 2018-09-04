@@ -7,9 +7,17 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { CoachPage } from '../pages/coach/coach';
+import { InicioPage } from '../pages/inicio/inicio';
+import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
+import { BiblioPage } from '../pages/biblio/biblio';
+import { PromosPage } from '../pages/promos/promos';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
 
 @NgModule({
   declarations: [
@@ -18,10 +26,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
+    CoachPage,
+    InicioPage,
+    LoginPage,
+    RegisterPage,
+    BiblioPage,
+    PromosPage,
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -30,6 +44,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
+    CoachPage,
+    InicioPage,
+    LoginPage,
+    RegisterPage,
+    BiblioPage,
+    PromosPage,
   ],
   providers: [
     StatusBar,

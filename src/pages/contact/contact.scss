@@ -1,8 +1,31 @@
 page-contact {
+    ion-content{
+        background-image: url(../../assets/imgs/portada2.jpg);
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        z-index: 9999;
+    }
+   a{
+       text-decoration: none;
+   } 
 .p-0{
     padding: 0%
 }
 .insta{
-    background: linear-gradient(220deg,#9C0097,#F00105,#E7ED08);
+    background: linear-gradient(220deg,rgba(156, 0, 151,0.4),rgba(240, 1, 5,0.4),rgba(231, 237, 8,0.4));
+}
+.danger{
+    background:rgba(255,0,0,0.4);
+    color: #fff
+}
+.primary{
+    background:rgba(59, 89, 152, 0.4);
+    color: #fff
+}
+.celeste{
+    background-color:rgba(0, 172, 237,0.4);
+    color: #fff
 }
 }
+

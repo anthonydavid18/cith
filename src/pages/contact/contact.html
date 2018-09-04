@@ -1,9 +1,3 @@
-<!--
-  Generated template for the ContactPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
     <ion-navbar color="dark">
@@ -15,34 +9,39 @@
 
 </ion-header>
 
-<ion-content >
+<ion-content>
 <ion-grid>
   <ion-row>
-      <button ion-button full icon-left color="danger" class="py-5">
+      <button ion-button full icon-left color="danger" class="py-5" (click)="promos()">
           <ion-icon name="flame"></ion-icon>
          <h2>PROMOCIONES</h2> 
               </button>
-   <ion-col col-6 class="p-0"><button ion-button full large icon-left color="primary">
+              </ion-row>
+ <ion-row class="py-5">
+  <ion-col col-6 class="p-0"><a href="https://goo.gl/rMKbJG"><button ion-button full large icon-left class="primary">
 <ion-icon name="logo-facebook"></ion-icon>
 FACEBOOK
-    </button></ion-col> 
+    </button></a></ion-col> 
 
-    <ion-col col-6 class="p-0">
-  <button ion-button full large icon-left color="danger">
+   <ion-col col-6 class="p-0">
+      <a href="https://goo.gl/582i8m"> 
+  <button ion-button full large icon-left class="danger">
         <ion-icon name="logo-youtube"></ion-icon>
         YOUTUBE
-  </button></ion-col>
+  </button></a></ion-col>
 
-  <ion-col col-6 class="p-0"><button ion-button large full icon-left class="insta">
+ <ion-col col-6 class="p-0"><a href="https://goo.gl/XX8281"><button ion-button large full icon-left class="insta">
 <ion-icon name="logo-instagram"></ion-icon>
 INSTAGRAM
-    </button></ion-col>
+    </button></a></ion-col>
 
-   <ion-col col-6 class="p-0"><button ion-button full large icon-left color="celeste">
+  <ion-col col-6 class="p-0"><a href="https://goo.gl/G5z89m"><button ion-button full large icon-left class="celeste">
         <ion-icon name="logo-twitter"></ion-icon>
         TWITTER
-            </button></ion-col>
+            </button></a></ion-col>
+</ion-row>
 
+<ion-row>
  <button ion-button full large icon-left color="dark">
               <ion-icon name="globe"></ion-icon>
               IR A LA PLATAFORMA
